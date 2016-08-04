@@ -2,9 +2,8 @@
 <html>
   <head>
     <!--stylesheets -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <!--Mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font awesome (icon) -->
@@ -13,18 +12,22 @@
     <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
     <title>Vacation</title>
+      <!--JavaScript-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header class="jumbotron">
       <h1>New York City<span class="glyphicon glyphicon-apple"/></h1>
       <div class="icons pull-right">
-        <span class="glyphicon glyphicon-envelope" style="font-size:25px"></span>
+        <a href="mailto:nyc@gmail.com"<span class="glyphicon glyphicon-envelope" style="font-size:25px"></span></a>
         <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:25px"></i>
         <i class="fa fa-instagram" aria-hidden="true" style="font-size:25px"></i>
         <i class="fa fa-twitter-square" aria-hidden="true" style="font-size:25px"></i>
       </div>
     </header>
     <div class="container">
+      <div class="inline">
       <div class="about col-sm-8">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper et quam a gravida. Vivamus sit amet tellus et purus laoreet dictum vitae eu purus. Nullam pretium vulputate maximus. Sed risus nunc, posuere sed faucibus nec, sagittis et sapien. Quisque eu purus eleifend, consectetur quam sit amet, posuere arcu. Suspendisse rhoncus lectus et augue bibendum semper. Phasellus hendrerit eget mauris id pretium. Quisque ullamcorper arcu ut volutpat ultrices. Duis vel augue a sapien molestie porta. Phasellus eleifend sed dui vitae facilisis.</p>
@@ -40,12 +43,48 @@
         </ul>
       </div>
     </div>
+    </div>
+    <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/newyork.jpeg" alt="Chania" width="460" height="345">
+      </div>
+      <div class="item">
+        <img src="img/newyork1.jpeg" alt="Chania" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img/lady.jpeg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img/city.jpg" alt="Flower" width="460" height="345">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!--
     <div class="gallery">
       <img src="img/newyork.jpeg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
       <img src="img/newyork1.jpeg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
       <img src="img/lady.jpeg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
       <img src="img/city.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
-    </div>
-    <div class="footer navbar-fixed-bottom">New York &copy; 2016</div>
+    </div> -->
+    <div class="footer">New York &copy; 2016</div>
 </body>
 </html>
