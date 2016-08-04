@@ -1,0 +1,95 @@
+body {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.jumbotron h1, .icons {
+  display: inline-flex;
+}
+
+header h1 {
+  margin-left: 10%;
+  font-family: 'Cinzel', serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav a,
+p {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+.icons {
+  margin-right: 5%;
+  margin-top: 2.5%;
+}
+
+.glyphicon-apple {
+  color:  #ff3333;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square,
+.glyphicon-envelope {
+  color: #ff3333;
+  padding: 3px;
+}
+
+.container {
+  margin-top: 4%;
+  margin-left: 50px;
+}
+
+.about {
+  padding: 5px;
+  border-right: solid 1px #e6e6e6;
+  border-bottom: solid 1px #e6e6e6;
+  box-shadow: 2px 2px 10px #e6e6e6;
+}
+.about h1 {
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
+
+.list h1 {
+  color: green;
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+}
+
+.list {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.gallery {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery img {
+  padding: 1px;
+  box-shadow: 2px 2px 10px #e6e6e6;
+}
+
+.footer {
+  text-align: center;
+  background-color: #808080;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  padding-top: 40px;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
